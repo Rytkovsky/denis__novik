@@ -25,7 +25,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
   .home__wrapper {
     display: block;
   } 
@@ -33,13 +33,13 @@
   .home__text {
     margin: 20px 0 30px;
   } 
-  
+
   .home__picture {
     display: none;
   }
 }
 
-@media screen and (min-width: 391px) {
+@media screen and (min-width: 415px) {
   .home__picture-mobile {
     display: none;
   }
