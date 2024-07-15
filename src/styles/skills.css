@@ -48,5 +48,6 @@
 @media screen and (max-width: 774px) {
   .skills__wrapper {
     justify-content: center;
+    flex-direction: column;
   }
 }
