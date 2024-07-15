@@ -1,0 +1,29 @@
+.header {
+  padding: 15px 0;
+}
+.nav {
+  border-bottom: 1px solid #828282;
+}
+
+.lists {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  color: #828282;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.link:hover {
+  color: #070707;
+  text-decoration: underline;
+  transition: 1s;
+}
+
+@media screen and (max-width: 450px) {
+  .nav {
+    display: none;
+  }
+}
