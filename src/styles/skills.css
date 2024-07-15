@@ -32,13 +32,13 @@
   flex-grow: 1;
 }
 
-.stars__wrapper {
+.skills__wrapper-stars {
   display: flex;
   justify-content: space-between;
   width: 160px;
 }
 
-.skills__cards {
+.skills__card {
   /* padding-bottom: 110px; */
   display: flex;
   flex-direction: column;

@@ -15,7 +15,7 @@
 .portfolio__img {
   width: 100%;
   margin-bottom: 42px;
-  display: block;
+  /* display: block; */
 }
 
 .portfolio__link {

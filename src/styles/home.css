@@ -7,7 +7,6 @@
   display: flex;
   justify-content: space-between;
   align-items: end;
-  
 }
 
 .home__title {
@@ -22,6 +21,26 @@
 
   /* height: 387px; */
 }
+.home__picture-mobile {
+  width: 100%;
+}
 
-@media screen and(max-width: 375px) {
+@media screen and (max-width: 390px) {
+  .home__wrapper {
+    display: block;
+  } 
+
+  .home__text {
+    margin: 20px 0 30px;
+  } 
+  
+  .home__picture {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 391px) {
+  .home__picture-mobile {
+    display: none;
+  }
 }

@@ -19,21 +19,21 @@
   font-size: 18px;
 }
 
-.button__wrapper {
-  text-align: center;
-  margin-bottom: 40px;
-}
+
 
 .button {
+  margin: 0 auto 40px;
+  padding: 10px 29px;
+  display: flex;
   font-weight: bold;
+  justify-content: center;
   font-size: 18px;
   border-radius: 30px;
-  width: 180px;
-  height: 40px;
+  width: 189px;
   background-color: black;
   color: #fff;
   transition: 0.5s;
-  outline: 2px solid black;
+  border: 2px solid black;
 }
 
 button:hover {
@@ -49,18 +49,14 @@ button:hover {
   justify-content: space-between;
 }
 
-.footer__icons:hover {
+.footer__icon:hover {
   transition: 0.5s;
-  filter: invert(96%) sepia(33%) saturate(1489%) hue-rotate(290deg)
-    brightness(114%) contrast(111%);
+  filter: invert(52%) sepia(46%) saturate(164%) hue-rotate(169deg) brightness(93%) contrast(84%);
 }
 
-.flt__wrapper {
-  display: flex;
-  justify-content: center;
-}
 
-.footer__last__text {
+
+.footer__last-text {
   margin-bottom: 20px;
   padding-bottom: 60px;
   color: #828282;
@@ -69,12 +65,11 @@ button:hover {
   text-align: center;
 }
 
-@media screen and (max-width: 450px) {
-  .button{
-    /* width: 320px; */
-    min-width: 100%;
+@media screen and (max-width: 430px) {
+  .button {
+    max-width: 430px;
+    width: 100%;
   }
-  
 }
 .button__end__wrapper {
   padding-bottom: 20px;
