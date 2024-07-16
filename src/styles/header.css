@@ -22,7 +22,8 @@
   width: 30px;
   cursor: pointer;
   z-index: 100;
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
 }
 
 .menu-icon .line {
