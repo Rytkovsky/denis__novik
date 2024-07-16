@@ -19,8 +19,6 @@
   font-size: 18px;
 }
 
-
-
 .button {
   margin: 0 auto 40px;
   padding: 10px 29px;
@@ -51,10 +49,9 @@ button:hover {
 
 .footer__icon:hover {
   transition: 0.5s;
-  filter: invert(52%) sepia(46%) saturate(164%) hue-rotate(169deg) brightness(93%) contrast(84%);
+  filter: invert(52%) sepia(46%) saturate(164%) hue-rotate(169deg)
+    brightness(93%) contrast(84%);
 }
-
-
 
 .footer__last-text {
   margin-bottom: 20px;
